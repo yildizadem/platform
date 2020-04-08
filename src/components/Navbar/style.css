@@ -1,0 +1,126 @@
+.navbar {
+    height: 64px;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: solid 1px #cbd7e2;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+.navbar .search {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    border-radius: 4px;
+    border: solid 1px #cbd7e2;
+    background-color: #f5f8fa;
+    margin-left: auto;
+}
+
+.navbar .search .search-icon {
+    margin: 12px;
+}
+
+.navbar .search input {
+    background-color: transparent;
+    border: 0;
+    line-height: 48px;
+    color: #7c98b6;
+    font-style: italic;
+    font-size: 12px;
+    width: calc(100% - 60px);
+}
+
+.navbar .search input:focus {
+    outline: 0;
+}
+
+.navbar .date {
+    width: 130px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #33475c;
+    margin-left: 112px;
+}
+
+.navbar .weather-icon {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.navbar .weather {
+    width: 33px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #33475c;
+    margin-left: 16px;
+}
+
+.navbar .arrow-down-icon {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    margin-left: 8px;
+}
+
+.navbar .notifications {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 100%;
+    border-left: 1px solid #cbd7e2;
+    border-right: 1px solid #cbd7e2;
+    margin-left: 13px;
+}
+
+.navbar .user-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 233px;
+}
+
+.navbar .user-profile .full-name {
+    font-size: 13px;
+    font-weight: bold;
+    color: #43425d;
+}
+
+.navbar .user-profile .profile-img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    border: solid 1px #cbd7e2;
+    border-radius: 50%;
+    margin-left: 18px;
+}
+
+.navbar .user-profile .arrow-down-icon {
+    margin-left: 10px;
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {
+    .navbar .search {
+        width: 520px;
+    }
+    .navbar .date {
+        margin-left: 32px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .navbar .search {
+        width: 560px;
+    }
+    .navbar .date {
+        margin-left: 112px;
+    }
+}
