@@ -92,6 +92,7 @@ export default function () {
                         <span className="weatherDegreeDayLight">8 C°</span>
                     </div>
                 </div>
+                <button className="moreButton">- DAHA FAZLA -</button>
             </div>
             <div className="notifications">
                 <Icon path={mdiBellRing} size={1} color="#7c98b6" />
