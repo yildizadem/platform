@@ -8,7 +8,7 @@
     height: 100vh;
     background-color: #ffffff;
     border-right: solid 1px #cbd7e2;
-    z-index: 1;
+    z-index: 2;
 }
 
 .sidebar.expand {
@@ -185,7 +185,6 @@
 
 .sidebar .menu-icon.top-menu-open-icon {
     height: 64px;
-    border-bottom: solid 1px #cbd7e2;
     display: none;
 }
 
@@ -213,6 +212,12 @@
 }
 
 @media (max-width: 1080px) {
+    .sidebar {
+        height: 64px;
+    }
+    .sidebar.expand {
+        height: 100vh;
+    }
     .sidebar .logo {
         position: absolute;
         left: 60px;
@@ -238,7 +243,10 @@
     .sidebar.expand .menu-icon.top-menu-open-icon svg path {
         fill: #ffffff !important;
     }
-    .sidebar .menu-icon.bottom-menu-open-icon {
+    .sidebar .menu-icon.bottom-menu-open-icon, .sidebar .menu-icon.main-menu-icon, .sidebar .categories {
         display: none;
+    }
+    .sidebar.expand .menu-icon.main-menu-icon, .sidebar.expand .categories {
+        display: flex;
     }
 }
