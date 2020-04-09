@@ -12,10 +12,12 @@ export default function () {
                 <Icon path={mdiMagnify} size={1} className="search-icon" color="#7c98b6" />
                 <input type="text" placeholder="Veri arayın..." />
             </div>
-            <div className="date">06.04.2020, Pazartesi</div>
-            <img src={ruzgarliIcon} alt="weather-icon" className="weather-icon" />
-            <div className="weather">18 C°</div>
-            <Icon path={mdiChevronDown} className="arrow-down-icon" color="#7c98b6" />
+            <div className="weather-widget">
+                <div className="date">06.04.2020, Pazartesi</div>
+                <img src={ruzgarliIcon} alt="weather-icon" className="weather-icon" />
+                <div className="weather">18 C°</div>
+                <Icon path={mdiChevronDown} className="arrow-down-icon" color="#7c98b6" />
+            </div>
             <div className="notifications">
                 <Icon path={mdiBellRing} size={1} color="#7c98b6" />
             </div>

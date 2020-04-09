@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Icon from "@mdi/react";
 import {
     mdiViewDashboardOutline, mdiMapOutline, mdiFingerprint, mdiFlower,
-    mdiBank, mdiBusClock, mdiCity, mdiFlash, mdiNaturePeople, mdiMemory, mdiMenuOpen
+    mdiBank, mdiBusClock, mdiCity, mdiFlash, mdiNaturePeople, mdiMemory, mdiMenuOpen, mdiMenu, mdiClose
 } from "@mdi/js";
 import ibbLogoWide from "./ibb-logo-wide.svg";
 import ibbLogo from "./ibb-logo.svg";
@@ -12,6 +12,9 @@ export default function () {
     const [expand, setExpand] = useState(false);
     return (
         <nav className={expand ? "sidebar expand" : "sidebar"}>
+            <div className="menu-icon top-menu-open-icon" onClick={() => setExpand(!expand)}>
+                <Icon path={expand ? mdiClose : mdiMenu} size={1} />
+            </div>
             <div className="logo">
                 <img src={expand ? ibbLogoWide : ibbLogo} alt="ibb-logo" />
                 {expand && <span>PORTAL</span>}
@@ -124,7 +127,7 @@ export default function () {
                     ) : (<label>BT</label>)}
                 </div>
             </div>
-            <div className="menu-icon menu-open-icon" onClick={() => setExpand(!expand)}>
+            <div className="menu-icon bottom-menu-open-icon" onClick={() => setExpand(!expand)}>
                 <Icon path={mdiMenuOpen} size={1} />
                 {expand && <span>MENÜYÜ DARALT</span>}
             </div>

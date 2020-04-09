@@ -36,12 +36,17 @@
     outline: 0;
 }
 
+.navbar .weather-widget {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
 .navbar .date {
     width: 130px;
     font-size: 13px;
     font-weight: bold;
     color: #33475c;
-    margin-left: 112px;
 }
 
 .navbar .weather-icon {
@@ -103,16 +108,47 @@
     margin-left: 10px;
 }
 
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+    .navbar .search {
+        width: 300px;
+    }
+    .navbar .weather-widget {
+        margin-left: 20px;
+        border-left: 1px solid #cbd7e2;
+    }
+    .navbar .weather-widget .date, .navbar .weather-widget .weather-icon, .navbar .user-profile .full-name {
+        display: none;
+    }
+    .navbar .user-profile {
+        width: 106px;
+    }
+}
 
-@media (min-width: 768px) {}
+@media (min-width: 1080px) {
+    .navbar .weather-widget .date, .navbar .weather-widget .weather-icon, .navbar .user-profile .full-name {
+        display: block;
+    }
+    .navbar .search {
+        width: 360px;
+    }
+    .navbar .weather-widget {
+        margin-left: 32px;
+        border-left: none;
+    }
+    .navbar .user-profile {
+        width: 233px;
+    }
+}
 
-@media (min-width: 992px) {
+@media (min-width: 1300px) {
+    .navbar .search {
+        width: 460px;
+    }
+}
+
+@media (min-width: 1400px) {
     .navbar .search {
         width: 520px;
-    }
-    .navbar .date {
-        margin-left: 32px;
     }
 }
 
@@ -120,7 +156,7 @@
     .navbar .search {
         width: 560px;
     }
-    .navbar .date {
+    .navbar .weather-widget {
         margin-left: 112px;
     }
 }
