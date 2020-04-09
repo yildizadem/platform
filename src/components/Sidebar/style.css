@@ -212,7 +212,7 @@
     font-size: 14px;
 }
 
-@media (min-width: 576px) and (max-width: 1080px) {
+@media (max-width: 1080px) {
     .sidebar .logo {
         position: absolute;
         left: 60px;

@@ -108,7 +108,24 @@
     margin-left: 10px;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 732px) {
+    .navbar .weather-widget, .navbar .user-profile .full-name, .navbar .notifications, .navbar .search input{
+        display: none;
+    }
+
+    .navbar .search {
+        border: none;
+        background: transparent;
+    }
+
+    .navbar .user-profile {
+        width: 106px;
+        height: 100%;
+        border-left: solid 1px #cbd7e2;
+    }
+}
+
+@media (min-width: 732px) {
     .navbar .search {
         width: 300px;
     }
