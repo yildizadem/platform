@@ -9,7 +9,8 @@ import ibbLogo from "./ibb-logo.svg";
 import "./style.css";
 
 export default function () {
-    const [expand, setExpand] = useState(false);
+
+    const [expand, setExpand] = useState(window.innerWidth < 1080 ? false : true);
     return (
         <nav className={expand ? "sidebar expand" : "sidebar"}>
             <div className="menu-icon top-menu-open-icon" onClick={() => setExpand(!expand)}>
