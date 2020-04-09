@@ -214,10 +214,14 @@
 
 @media (min-width: 576px) and (max-width: 1080px) {
     .sidebar .logo {
-        display: none;
+        position: absolute;
+        left: 60px;
+        width: 60px;
     }
     .sidebar.expand .logo {
         display: flex;
+        position: unset;
+        width: unset;
     }
     .sidebar .menu-icon.top-menu-open-icon {
         display: flex;
