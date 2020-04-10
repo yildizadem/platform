@@ -1,4 +1,5 @@
 .navbar .weather-widget {
+    cursor: pointer;
     position: relative;
     height: 100%;
     display: flex;

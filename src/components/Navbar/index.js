@@ -1,8 +1,9 @@
 import React from "react";
 import Icon from "@mdi/react";
 import Weather from "./Weather";
+import Notifications from "./Notifications"
+import { mdiMagnify, mdiChevronDown, mdiBellRing } from "@mdi/js";
 import User from "./User";
-import { mdiMagnify, mdiBellRing } from "@mdi/js";
 import "./style.css";
 
 export default function () {
@@ -13,10 +14,8 @@ export default function () {
                 <input type="text" placeholder="Veri arayın..." />
             </div>
             <Weather />
-            <div className="notifications">
-                <Icon path={mdiBellRing} size={1} color="#7c98b6" />
-            </div>
-            <User />
+            <Notifications/>
+            <User/>
         </nav>
     )
 }
