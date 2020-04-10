@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.91c00ca6.chunk.css",
-    "main.js": "/static/js/main.188f032e.chunk.js",
+    "main.css": "/static/css/main.1c2bfa0b.chunk.css",
+    "main.js": "/static/js/main.107ea0e4.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.e701eb16.js",
-    "static/js/2.c46b201a.chunk.js": "/static/js/2.c46b201a.chunk.js",
+    "static/js/2.edd12b74.chunk.js": "/static/js/2.edd12b74.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.8e4847c593ef6e4c099aa9d4c707b0aa.js": "/precache-manifest.8e4847c593ef6e4c099aa9d4c707b0aa.js",
+    "precache-manifest.88740e24e67c684b677a562d694038a7.js": "/precache-manifest.88740e24e67c684b677a562d694038a7.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.c46b201a.chunk.js.LICENSE.txt": "/static/js/2.c46b201a.chunk.js.LICENSE.txt",
+    "static/js/2.edd12b74.chunk.js.LICENSE.txt": "/static/js/2.edd12b74.chunk.js.LICENSE.txt",
+    "static/media/acik-48px.svg": "/static/media/acik-48px.08ae7c34.svg",
+    "static/media/cok-bulutlu--48px.svg": "/static/media/cok-bulutlu--48px.23430d63.svg",
+    "static/media/hafif-kar-yagisli-48px.svg": "/static/media/hafif-kar-yagisli-48px.af3a9df2.svg",
     "static/media/ibb-logo-wide.svg": "/static/media/ibb-logo-wide.ef070b68.svg",
     "static/media/ibb-logo.svg": "/static/media/ibb-logo.39bf48cc.svg",
-    "static/media/keyboard-arrow-down-24-px.svg": "/static/media/keyboard-arrow-down-24-px.369f4391.svg",
-    "static/media/notifications-active-24-px.svg": "/static/media/notifications-active-24-px.d3248c38.svg",
-    "static/media/ruzgarli-48-px.svg": "/static/media/ruzgarli-48-px.2f56cbc7.svg",
-    "static/media/searchIcon.svg": "/static/media/searchIcon.4dfb8bba.svg"
+    "static/media/parcali-bulutu-48px.svg": "/static/media/parcali-bulutu-48px.2810bcfa.svg",
+    "static/media/ruzgarli-48-px.svg": "/static/media/ruzgarli-48-px.2f56cbc7.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e701eb16.js",
-    "static/js/2.c46b201a.chunk.js",
-    "static/css/main.91c00ca6.chunk.css",
-    "static/js/main.188f032e.chunk.js"
+    "static/js/2.edd12b74.chunk.js",
+    "static/css/main.1c2bfa0b.chunk.css",
+    "static/js/main.107ea0e4.chunk.js"
   ]
 }
