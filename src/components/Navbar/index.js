@@ -3,7 +3,6 @@ import Icon from "@mdi/react";
 import Weather from "./Weather";
 import Notifications from "./Notifications"
 import { mdiMagnify, mdiChevronDown, mdiBellRing } from "@mdi/js";
-import profileImage from "./profile-img.jpg";
 import User from "./User";
 import "./style.css";
 
@@ -16,12 +15,7 @@ export default function () {
             </div>
             <Weather />
             <Notifications/>
-            <div className="user-profile">
-                <div className="full-name">Naim Erol Özgüner</div>
-                <img src={profileImage} alt="profile-img" className="profile-img" />
-                <Icon path={mdiChevronDown} className="arrow-down-icon" color="#7c98b6" />
-            </div>
-            <User />
+            <User/>
         </nav>
     )
 }
