@@ -55,47 +55,15 @@
     margin-left: 13px;
 }
 
-.navbar .user-profile {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 233px;
-}
-
-.navbar .user-profile .full-name {
-    font-size: 13px;
-    font-weight: bold;
-    color: #43425d;
-}
-
-.navbar .user-profile .profile-img {
-    width: 32px;
-    height: 32px;
-    object-fit: contain;
-    border: solid 1px #cbd7e2;
-    border-radius: 50%;
-    margin-left: 18px;
-}
-
-.navbar .user-profile .arrow-down-icon {
-    margin-left: 10px;
-}
-
 @media (max-width: 732px) {
-    .navbar .user-profile .full-name, .navbar .notifications, .navbar .search input {
+    .navbar .notifications, .navbar .search input {
         display: none;
     }
     .navbar .search {
         border: none;
         background: transparent;
     }
-    .navbar .user-profile {
-        width: 106px;
-        height: 100%;
-        border-left: solid 1px #cbd7e2;
-    }
-
-    #weatherDetail{
+    #weatherDetail {
         right: 171px;
     }
 }
@@ -104,32 +72,19 @@
     .navbar .search {
         width: 300px;
     }
-    .navbar .user-profile .full-name {
-        display: none;
-    }
-    .navbar .user-profile {
-        width: 106px;
-    }
 }
 
-
 @media (min-width: 1080px) {
-    .navbar .user-profile .full-name {
-        display: block;
-    }
     .navbar .search {
         width: 360px;
     }
-    .navbar .user-profile {
-        width: 233px;
-    }
-    #weatherDetail{
+    #weatherDetail {
         right: 298px;
     }
 }
 
 @media (max-width: 1080px) {
-    #weatherDetail{
+    #weatherDetail {
         right: 171px;
     }
 }

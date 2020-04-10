@@ -11,7 +11,7 @@ import "./style.css";
 
 export default function () {
     const [detailOpen, setDetailOpen] = useState(false);
-    // const [weatherPredicts, setWeatherPredicts] = useState([]);
+    // const [weatherPredictions, setWeatherPredictions] = useState([]);
 
     // useEffect(() => {
     //     // Burada fetch fonksiyonu olacak
