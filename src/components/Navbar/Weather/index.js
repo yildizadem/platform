@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Icon from "@mdi/react";
 import { mdiChevronDown } from "@mdi/js";
+import { dayNames } from "../../../constants"
 import ruzgarliIcon from "./ruzgarli-48-px.svg";
 import acik from "./acik-48px.svg"
 import hafifKarYagisli from "./hafif-kar-yagisli-48px.svg";
@@ -10,9 +11,28 @@ import "./style.css";
 
 export default function () {
     const [detailOpen, setDetailOpen] = useState(false);
+    // const [weatherPredicts, setWeatherPredicts] = useState([]);
+
+    // useEffect(() => {
+    //     // Burada fetch fonksiyonu olacak
+    //     setTimeout(() => {
+    //         setWeatherPredicts([
+    //             {
+    //                 date: "09.04.2020, Perşembe",
+    //                 detail: "Hafif Kar Yağışlı",
+
+    //             }
+    //         ])
+    //     }, 100);
+    // })
+
+    let getDate = () => {
+        let date = new Date();
+        return `${new Intl.DateTimeFormat("tr-TR").format(date)}, ${dayNames[date.getDay()]}`
+    }
     return (
         <div className="weather-widget" onClick={() => setDetailOpen(!detailOpen)}>
-            <div className="date">06.04.2020, Pazartesi</div>
+            <div className="date">{getDate()}</div>
             <img src={ruzgarliIcon} alt="weather-icon" className="weather-icon" />
             <div className="weather">18 C°</div>
             <Icon path={mdiChevronDown} className="arrow-down-icon" color="#7c98b6" />
