@@ -29,7 +29,7 @@ export default function () {
     let getDate = () => {
         let date = new Date();
         return `${new Intl.DateTimeFormat("tr-TR").format(date)}, ${dayNames[date.getDay()]}`
-    }
+    };
     return (
         <div className="weather-widget" onClick={() => setDetailOpen(!detailOpen)}>
             <div className="date">{getDate()}</div>
