@@ -30,7 +30,7 @@
 .navbar .user-profile .menu {
     position: absolute;
     top: 64px;
-    left: -1px;
+    width: 232px;
     right: 0;
     background-color: #ffffff;
     height: 166.5px;
