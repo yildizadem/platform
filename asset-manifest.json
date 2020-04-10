@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c2bfa0b.chunk.css",
-    "main.js": "/static/js/main.107ea0e4.chunk.js",
-    "runtime-main.js": "/static/js/runtime-main.e701eb16.js",
-    "static/js/2.edd12b74.chunk.js": "/static/js/2.edd12b74.chunk.js",
-    "index.html": "/index.html",
-    "precache-manifest.88740e24e67c684b677a562d694038a7.js": "/precache-manifest.88740e24e67c684b677a562d694038a7.js",
-    "service-worker.js": "/service-worker.js",
-    "static/js/2.edd12b74.chunk.js.LICENSE.txt": "/static/js/2.edd12b74.chunk.js.LICENSE.txt",
-    "static/media/acik-48px.svg": "/static/media/acik-48px.08ae7c34.svg",
-    "static/media/cok-bulutlu--48px.svg": "/static/media/cok-bulutlu--48px.23430d63.svg",
-    "static/media/hafif-kar-yagisli-48px.svg": "/static/media/hafif-kar-yagisli-48px.af3a9df2.svg",
-    "static/media/ibb-logo-wide.svg": "/static/media/ibb-logo-wide.ef070b68.svg",
-    "static/media/ibb-logo.svg": "/static/media/ibb-logo.39bf48cc.svg",
-    "static/media/parcali-bulutu-48px.svg": "/static/media/parcali-bulutu-48px.2810bcfa.svg",
-    "static/media/ruzgarli-48-px.svg": "/static/media/ruzgarli-48-px.2f56cbc7.svg"
+    "main.css": "/platform/static/css/main.1c2bfa0b.chunk.css",
+    "main.js": "/platform/static/js/main.f14e6dab.chunk.js",
+    "runtime-main.js": "/platform/static/js/runtime-main.0d294fe5.js",
+    "static/js/2.edd12b74.chunk.js": "/platform/static/js/2.edd12b74.chunk.js",
+    "index.html": "/platform/index.html",
+    "precache-manifest.e83b03e561ef6dda008544721bc39182.js": "/platform/precache-manifest.e83b03e561ef6dda008544721bc39182.js",
+    "service-worker.js": "/platform/service-worker.js",
+    "static/js/2.edd12b74.chunk.js.LICENSE.txt": "/platform/static/js/2.edd12b74.chunk.js.LICENSE.txt",
+    "static/media/acik-48px.svg": "/platform/static/media/acik-48px.08ae7c34.svg",
+    "static/media/cok-bulutlu--48px.svg": "/platform/static/media/cok-bulutlu--48px.23430d63.svg",
+    "static/media/hafif-kar-yagisli-48px.svg": "/platform/static/media/hafif-kar-yagisli-48px.af3a9df2.svg",
+    "static/media/ibb-logo-wide.svg": "/platform/static/media/ibb-logo-wide.ef070b68.svg",
+    "static/media/ibb-logo.svg": "/platform/static/media/ibb-logo.39bf48cc.svg",
+    "static/media/parcali-bulutu-48px.svg": "/platform/static/media/parcali-bulutu-48px.2810bcfa.svg",
+    "static/media/ruzgarli-48-px.svg": "/platform/static/media/ruzgarli-48-px.2f56cbc7.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e701eb16.js",
+    "static/js/runtime-main.0d294fe5.js",
     "static/js/2.edd12b74.chunk.js",
     "static/css/main.1c2bfa0b.chunk.css",
-    "static/js/main.107ea0e4.chunk.js"
+    "static/js/main.f14e6dab.chunk.js"
   ]
 }
