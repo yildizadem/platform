@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Icon from "@mdi/react";
 import { mdiChevronDown } from "@mdi/js";
 import { dayNames } from "../../../constants"
@@ -11,7 +11,7 @@ import "./style.css";
 
 export default function () {
     const [detailOpen, setDetailOpen] = useState(false);
-    // const [weatherPredicts, setWeatherPredicts] = useState([]);
+    // const [weatherPredictions, setWeatherPredictions] = useState([]);
 
     // useEffect(() => {
     //     // Burada fetch fonksiyonu olacak
