@@ -24,7 +24,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: git config --global user.name "yildizadem"
+    - run: git remote add https://github.com/yildizadem/platform.git
     - run: npm install
     - run: npm run build
     - run: npm run deploy
