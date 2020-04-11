@@ -1,0 +1,92 @@
+.Error-Page-Illustration {
+    width: 581px;
+    height: 515px;
+    object-fit: contain;
+    right: 16vw;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.footer{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-text{
+    width: 314px;
+    height: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1b569c;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.error-number{
+    width: 167px;
+    top: 30vh;
+    left: 14vw;
+    position: absolute;
+    height: 115px;
+    font-family: 'Lato', sans-serif;
+    font-size: 96px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: #33475c;
+}
+
+.error-text{
+    position: absolute;
+    top: 46vh;
+    left: 14vw;
+    width: 551px;
+    height: 74px;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7c98b6;
+}
+
+.error-button{
+    cursor: pointer;
+    width: 206px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #33475c;
+    position: absolute;
+    top: 64vh;
+    left: 14vw;
+}
+
+.error-button span{
+    width: 142px;
+    height: 16px;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 2.6px;
+    text-align: center;
+    color: #ffffff;
+}
