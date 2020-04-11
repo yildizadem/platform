@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/platform/static/css/main.8c39e2ba.chunk.css",
-    "main.js": "/platform/static/js/main.3824edf8.chunk.js",
+    "main.css": "/platform/static/css/main.385a1796.chunk.css",
+    "main.js": "/platform/static/js/main.efd54e23.chunk.js",
     "runtime-main.js": "/platform/static/js/runtime-main.0d294fe5.js",
     "static/js/2.edd12b74.chunk.js": "/platform/static/js/2.edd12b74.chunk.js",
     "index.html": "/platform/index.html",
-    "precache-manifest.4acfd0094b2d89a3d44b0a3dc87d5dbe.js": "/platform/precache-manifest.4acfd0094b2d89a3d44b0a3dc87d5dbe.js",
+    "precache-manifest.84546511acf61de5ac89a52ea0cb22fd.js": "/platform/precache-manifest.84546511acf61de5ac89a52ea0cb22fd.js",
     "service-worker.js": "/platform/service-worker.js",
     "static/js/2.edd12b74.chunk.js.LICENSE.txt": "/platform/static/js/2.edd12b74.chunk.js.LICENSE.txt",
     "static/media/acik-48px.svg": "/platform/static/media/acik-48px.08ae7c34.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.0d294fe5.js",
     "static/js/2.edd12b74.chunk.js",
-    "static/css/main.8c39e2ba.chunk.css",
-    "static/js/main.3824edf8.chunk.js"
+    "static/css/main.385a1796.chunk.css",
+    "static/js/main.efd54e23.chunk.js"
   ]
 }
