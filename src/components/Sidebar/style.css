@@ -158,6 +158,13 @@
     transform: translate(-50%, -50%) rotateZ(135deg);
 }
 
+.sidebar .menu-icon a{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .sidebar .menu-icon.menu-icon.sub-menu-icon:hover label {
     display: flex;
 }

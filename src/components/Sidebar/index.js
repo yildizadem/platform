@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import Icon from "@mdi/react";
 import {
     mdiViewDashboardOutline, mdiMapOutline, mdiFingerprint, mdiFlower,
@@ -21,8 +22,10 @@ export default function () {
                 {expand && <span>PORTAL</span>}
             </div>
             <div className="menu-icon main-menu-icon">
-                <Icon path={mdiViewDashboardOutline} size={1} />
-                {expand && <span>Ana Ekran</span>}
+                <Link to="/">
+                    <Icon path={mdiViewDashboardOutline} size={1} />
+                    {expand && <span>Ana Ekran</span>}
+                </Link>
             </div>
             <div className="menu-icon main-menu-icon">
                 <Icon path={mdiMapOutline} size={1} />
