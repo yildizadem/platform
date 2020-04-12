@@ -16,7 +16,7 @@ const LayoutEmpty = ({children}) => <div>{children}</div>;
 
 function App() {
   return (
-      <BrowserRouter>
+      <BrowserRouter basename="/platform">
           <Switch>
               <RouteWrapper path="/" exact component={Content} layout={LayoutOne} />
               <RouteWrapper path="/profile" exact component={Profile} layout={LayoutOne} />
