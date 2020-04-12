@@ -14,8 +14,8 @@ export default function () {
                 <input type="text" placeholder="Veri arayın..." />
             </div>
             <Weather />
-            <Notifications/>
-            <User/>
+            <Notifications />
+            <User />
         </nav>
     )
 }
