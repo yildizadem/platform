@@ -2,7 +2,7 @@ import React from "react";
 import Icon from "@mdi/react";
 import Weather from "./Weather";
 import Notifications from "./Notifications"
-import { mdiMagnify, mdiChevronDown, mdiBellRing } from "@mdi/js";
+import { mdiMagnify } from "@mdi/js";
 import User from "./User";
 import "./style.css";
 
@@ -14,8 +14,8 @@ export default function () {
                 <input type="text" placeholder="Veri arayın..." />
             </div>
             <Weather />
-            <Notifications/>
-            <User/>
+            <Notifications />
+            <User />
         </nav>
     )
 }
