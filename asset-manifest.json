@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/platform/static/css/main.deb24905.chunk.css",
-    "main.js": "/platform/static/js/main.3a56c8d5.chunk.js",
+    "main.css": "/platform/static/css/main.335ba49f.chunk.css",
+    "main.js": "/platform/static/js/main.e7dba92f.chunk.js",
     "runtime-main.js": "/platform/static/js/runtime-main.0d294fe5.js",
-    "static/js/2.d3eb76b8.chunk.js": "/platform/static/js/2.d3eb76b8.chunk.js",
+    "static/js/2.181fbf36.chunk.js": "/platform/static/js/2.181fbf36.chunk.js",
     "index.html": "/platform/index.html",
-    "precache-manifest.277c0e671a692842ee8acbeb02b2fcef.js": "/platform/precache-manifest.277c0e671a692842ee8acbeb02b2fcef.js",
+    "precache-manifest.da264e31a614d6ce215f9476a2c3d75a.js": "/platform/precache-manifest.da264e31a614d6ce215f9476a2c3d75a.js",
     "service-worker.js": "/platform/service-worker.js",
-    "static/js/2.d3eb76b8.chunk.js.LICENSE.txt": "/platform/static/js/2.d3eb76b8.chunk.js.LICENSE.txt",
+    "static/js/2.181fbf36.chunk.js.LICENSE.txt": "/platform/static/js/2.181fbf36.chunk.js.LICENSE.txt",
     "static/media/acik-48px.svg": "/platform/static/media/acik-48px.08ae7c34.svg",
     "static/media/cok-bulutlu--48px.svg": "/platform/static/media/cok-bulutlu--48px.23430d63.svg",
     "static/media/error-page-illustration.svg": "/platform/static/media/error-page-illustration.e32a5eff.svg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0d294fe5.js",
-    "static/js/2.d3eb76b8.chunk.js",
-    "static/css/main.deb24905.chunk.css",
-    "static/js/main.3a56c8d5.chunk.js"
+    "static/js/2.181fbf36.chunk.js",
+    "static/css/main.335ba49f.chunk.css",
+    "static/js/main.e7dba92f.chunk.js"
   ]
 }
