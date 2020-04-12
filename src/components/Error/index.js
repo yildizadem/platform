@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import errorImg from "./error-page-illustration.svg";
 import "./style.css";
 
@@ -10,7 +11,9 @@ export default function() {
                 <span>Sayfa bulunamadı, özür dileriz.</span><br/>
                 <span>Hata ile ilgili ekiplerimizi bilgilendirdik.</span>
             </div>
-            <button className="error-button"><span>ANASAYFAYA GİT</span></button>
+            <Link to="/">
+                <button className="error-button"><span>ANASAYFAYA GİT</span></button>
+            </Link>
             <img src={errorImg} className="Error-Page-Illustration" alt="error"/>
             <div className="footer">
                 <span className="footer-text">İstanbul Büyükşehir Belediyesi Coğrafi Bilgi Sistemi Müdürlüğü</span><br/>

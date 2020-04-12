@@ -1,8 +1,6 @@
 .Error-Page-Illustration {
-    width: 581px;
     height: 515px;
     object-fit: contain;
-    right: 16vw;
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
@@ -89,4 +87,25 @@
     letter-spacing: 2.6px;
     text-align: center;
     color: #ffffff;
+}
+
+@media (min-width: 1366px) {
+    .Error-Page-Illustration {
+        width: 581px;
+        right: 16vw;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1366px) {
+    .Error-Page-Illustration {
+        width: 525px;
+        right: 13vw;
+    }
+}
+
+@media (max-width: 1280px) {
+    .Error-Page-Illustration {
+        width: 420px;
+        right: 7vw;
+    }
 }
