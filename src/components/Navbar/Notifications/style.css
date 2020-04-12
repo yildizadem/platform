@@ -96,6 +96,19 @@
     font-family: 'Lato', sans-serif;
 }
 
+.actionButtons{
+    display: none;
+    width: 298px;
+    height: 97px;
+    margin-top: -97px;
+    opacity: 0.88;
+    background-color: #ffffff;
+}
+
+.actionButtons.active {
+    display: block;
+}
+
 @media (min-width: 1080px) {
     .notifications-detail {
         right: 233px;

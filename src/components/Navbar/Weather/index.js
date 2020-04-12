@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useEffect, useState, useRef} from "react";
 import Icon from "@mdi/react";
 import { mdiChevronDown } from "@mdi/js";
 import { dayNames } from "../../../constants"
@@ -11,6 +11,22 @@ import "./style.css";
 
 export default function () {
     const [detailOpen, setDetailOpen] = useState(false);
+    const node = useRef();
+    const handleClick = e => {
+        if (node.current.contains(e.target)) {
+            // inside click
+            return;
+        }
+        // outside click
+        setDetailOpen(false);
+    };
+
+    useEffect(() => {
+        document.addEventListener("mousedown", handleClick);
+        return () => {
+            document.removeEventListener("mousedown", handleClick);
+        };
+    }, []);
     // const [weatherPredictions, setWeatherPredictions] = useState([]);
 
     // useEffect(() => {
@@ -31,7 +47,7 @@ export default function () {
         return `${new Intl.DateTimeFormat("tr-TR").format(date)}, ${dayNames[date.getDay()]}`
     };
     return (
-        <div className="weather-widget" onClick={() => setDetailOpen(!detailOpen)}>
+        <div className="weather-widget" ref={node} onClick={() => setDetailOpen(!detailOpen)}>
             <div className="date">{getDate()}</div>
             <img src={ruzgarliIcon} alt="weather-icon" className="weather-icon" />
             <div className="weather">18 C°</div>

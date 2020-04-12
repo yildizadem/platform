@@ -1,12 +1,28 @@
-import React, {useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import Icon from "@mdi/react";
 import {mdiBellRing} from "@mdi/js";
 import "./style.css"
 
 export default function () {
     const [detailOpen, setDetailOpen] = useState(false);
+    const node = useRef();
+    const handleClick = e => {
+        if (node.current.contains(e.target)) {
+            // inside click
+            return;
+        }
+        // outside click
+        setDetailOpen(false);
+    };
+
+    useEffect(() => {
+        document.addEventListener("mousedown", handleClick);
+        return () => {
+            document.removeEventListener("mousedown", handleClick);
+        };
+    }, []);
     return (
-        <div className="notifications" onClick={() => setDetailOpen(!detailOpen)}>
+        <div className="notifications" ref={node} onClick={() => setDetailOpen(!detailOpen)}>
             <Icon path={mdiBellRing} size={1} color="#7c98b6" />
             <div  className={detailOpen ? "notifications-detail active animated fadeIn" : "notifications-detail"}>
                 <div className="notificationItem">
