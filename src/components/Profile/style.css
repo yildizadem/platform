@@ -202,6 +202,13 @@
     padding-bottom: 5px;
     color: #33475c;
     font-size: 16px;
+    outline: none;
+}
+
+.cbs-input:focus {
+    border-bottom: 2px solid #4285f4;
+    -webkit-box-shadow: 0 1px 0 0 #4285f4;
+    box-shadow: 0 1px 0 0 #4285f4;
 }
 
 .cbs-label {
