@@ -183,7 +183,7 @@
 
 .cbs-input {
     display: block;
-    width: 100%;
+    width: 80%;
     border-bottom: 2px solid #cbd7e2;
     border-top: none;
     border-left: none;
@@ -213,7 +213,29 @@
     color: #808495;
 }
 
+.change-password {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: left;
+    color: #7c98b6;
+}
 
+.social-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.81;
+    letter-spacing: normal;
+    text-align: left;
+    color: #33475c;
+}
 
 @media (max-width: 1280px) {
     .header{

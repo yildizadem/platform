@@ -1,5 +1,14 @@
 import React from "react";
-import {mdiFullscreen, mdiInformation, mdiCamera} from "@mdi/js";
+import {
+    mdiFullscreen,
+    mdiInformation,
+    mdiCamera,
+    mdiEmail,
+    mdiLinkedin,
+    mdiFacebook,
+    mdiTwitter,
+    mdiPencil,
+} from "@mdi/js";
 import "./style.css"
 import "../../index.css"
 import profileImg from "./profil_img.png"
@@ -46,11 +55,70 @@ export default function() {
                         <div className="row mt-4">
                             <div className="col-3">
                                 <label className="cbs-label">Cep Telefonu</label>
-                                <input type="text" className="cbs-input mt-3" value="0212 449 45 20"/>
+                                <input type="text" className="cbs-input mt-3" defaultValue="0212 449 45 20"/>
                             </div>
                             <div className="col-9">
                                 <label className="cbs-label">Adres</label>
-                                <input type="text" className="cbs-input mt-3" value="Hacıahmet Mh. Muhsin Yazıcıoğlu Cad. No:1 34440 Beyoğlu/İstanbul"/>
+                                <input type="text" className="cbs-input mt-3" defaultValue="Hacıahmet Mh. Muhsin Yazıcıoğlu Cad. No:1 34440 Beyoğlu/İstanbul"/>
+                            </div>
+                        </div>
+
+                        <div className="row">
+                            <div className="col-3">
+                                <div className="col-12 mt-5">
+                                    <label className="cbs-label">Telefon</label>
+                                    <input type="text" className="cbs-input mt-3" defaultValue="0212 449 45 20"/>
+                                </div>
+                                <div className="col-12 mt-5">
+                                    <label className="cbs-label">Santral</label>
+                                    <input type="text" className="cbs-input mt-3" defaultValue="0212 449 00 00"/>
+                                </div>
+                                <div className="col-12 mt-5">
+                                    <label className="cbs-label">Fax</label>
+                                    <input type="text" className="cbs-input mt-3" defaultValue="0212 449 50 20"/>
+                                </div>
+                                <div className="col-12 mt-5">
+                                    <a className="change-password"><u>Şifre Değiştir</u></a>
+                                </div>
+                            </div>
+                            <div className="col-9 mt-3">
+                                <div className="col-12 mt-5 d-flex">
+                                    <Icon path={mdiEmail} size={1} className="grey-text"/>
+                                    <span className="social-text align-self-center ml-3">erol.ozguner@ibb.gov.tr</span>
+                                </div>
+                                <div className="col-12 mt-3">
+                                    <div className="row">
+                                        <div className="col-4 d-flex">
+                                            <Icon path={mdiLinkedin} size={1} className="blue-text"/>
+                                            <span className="social-text align-self-center ml-3">linkedin.com/in/nerolozguner</span>
+                                        </div>
+                                        <div className="col-2">
+                                            <Icon path={mdiPencil} size={1} className="grey-text"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-12 mt-3 d-flex">
+                                    <div className="row">
+                                        <div className="col-4 d-flex">
+                                            <Icon path={mdiFacebook} size={1} className="primary-color-dark"/>
+                                            <span className="social-text align-self-center ml-3">facebook.com/nerolozguner</span>
+                                        </div>
+                                        <div className="col-2">
+                                            <Icon path={mdiPencil} size={1} className="grey-text"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-12 mt-3 d-flex">
+                                    <div className="row">
+                                        <div className="col-4 d-flex">
+                                            <Icon path={mdiTwitter} size={1} className="info-color"/>
+                                            <span className="social-text align-self-center ml-3">@nerolozguner</span>
+                                        </div>
+                                        <div className="col-2">
+                                            <Icon path={mdiPencil} size={1} className="grey-text"/>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
