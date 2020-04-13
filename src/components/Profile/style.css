@@ -255,6 +255,8 @@
 
 .line {
     width: 77px;
+    float: right;
+    margin-top: 10px;
     height: 0;
     border: solid 1px #7c98b6;
 }
@@ -281,10 +283,17 @@
         margin-top: 1.5rem;
     }
     .profile-page {
-        margin-left: 14vw;
+        margin-left: 8vw;
+        width: 85vw;
     }
     .nav-panels {
         width: 63vw;
+    }
+    .nav-tabs {
+        width: 19vw;
+    }
+    .body {
+        width: 85vw;
     }
 }
 @media (min-width: 1280px) and (max-width: 1440px) {
@@ -295,10 +304,17 @@
         margin-top: 1.5rem;
     }
     .profile-page {
-        margin-left: 14vw;
+        margin-left: 8vw;
+        width: 85vw;
     }
     .nav-panels {
-        width: 63vw;
+        width: 66vw;
+    }
+    .nav-tabs {
+        width: 19vw;
+    }
+    .body {
+        width: 85vw;
     }
 }
 @media (min-width: 1440px) and (max-width: 1680px) {
@@ -314,6 +330,9 @@
     .nav-panels {
          width: 63vw;
      }
+    .nav-tabs {
+        width: 15vw;
+    }
 }
 @media (min-width: 1920px) {
     .social-text {
@@ -327,5 +346,8 @@
     }
     .nav-panels {
         width: 65vw;
+    }
+    .nav-tabs {
+        width: 13vw;
     }
 }
