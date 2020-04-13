@@ -41,9 +41,18 @@ export default function() {
                     </div>
                 </div>
             </div>
-            <div className="body">
-                <div className="nav-tabs">
-
+            <div className="body mt-1">
+                <div className="nav-tabs mt-5">
+                    <div className="tab">
+                        <span className="tab-title">PROFİL BİLGİLERİ</span>
+                        <span className="line"></span>
+                    </div>
+                    <div className="tab mt-4">
+                        <span className="tab-title">ADRES DEFTERİ</span>
+                    </div>
+                    <div className="tab mt-4">
+                        <span className="tab-title">PORTAL VERİ AYARLARI</span>
+                    </div>
                 </div>
                 <div className="nav-panels">
                     <div className="pane-settings">
@@ -65,19 +74,19 @@ export default function() {
 
                         <div className="row">
                             <div className="col-3">
-                                <div className="col-12 mt-5">
+                                <div className="col-12 profile-textbox">
                                     <label className="cbs-label">Telefon</label>
                                     <input type="text" className="cbs-input mt-3" defaultValue="0212 449 45 20"/>
                                 </div>
-                                <div className="col-12 mt-5">
+                                <div className="col-12 profile-textbox">
                                     <label className="cbs-label">Santral</label>
                                     <input type="text" className="cbs-input mt-3" defaultValue="0212 449 00 00"/>
                                 </div>
-                                <div className="col-12 mt-5">
+                                <div className="col-12 profile-textbox">
                                     <label className="cbs-label">Fax</label>
                                     <input type="text" className="cbs-input mt-3" defaultValue="0212 449 50 20"/>
                                 </div>
-                                <div className="col-12 mt-5">
+                                <div className="col-12 profile-textbox">
                                     <a className="change-password"><u>Şifre Değiştir</u></a>
                                 </div>
                             </div>
@@ -86,38 +95,20 @@ export default function() {
                                     <Icon path={mdiEmail} size={1} className="grey-text"/>
                                     <span className="social-text align-self-center ml-3">erol.ozguner@ibb.gov.tr</span>
                                 </div>
-                                <div className="col-12 mt-3">
-                                    <div className="row">
-                                        <div className="col-4 d-flex">
-                                            <Icon path={mdiLinkedin} size={1} className="blue-text"/>
-                                            <span className="social-text align-self-center ml-3">linkedin.com/in/nerolozguner</span>
-                                        </div>
-                                        <div className="col-2">
-                                            <Icon path={mdiPencil} size={1} className="grey-text"/>
-                                        </div>
-                                    </div>
+                                <div className="col-12 mt-3 d-flex">
+                                    <Icon path={mdiLinkedin} size={1} className="blue-text"/>
+                                    <span className="social-text align-self-center ml-3">linkedin.com/in/nerolozguner</span>
+                                    <Icon path={mdiPencil} size={1} className="grey-text"/>
                                 </div>
                                 <div className="col-12 mt-3 d-flex">
-                                    <div className="row">
-                                        <div className="col-4 d-flex">
-                                            <Icon path={mdiFacebook} size={1} className="primary-color-dark"/>
-                                            <span className="social-text align-self-center ml-3">facebook.com/nerolozguner</span>
-                                        </div>
-                                        <div className="col-2">
-                                            <Icon path={mdiPencil} size={1} className="grey-text"/>
-                                        </div>
-                                    </div>
+                                    <Icon path={mdiFacebook} size={1} className="primary-color-dark"/>
+                                    <span className="social-text align-self-center ml-3">facebook.com/nerolozguner</span>
+                                    <Icon path={mdiPencil} size={1} className="grey-text"/>
                                 </div>
                                 <div className="col-12 mt-3 d-flex">
-                                    <div className="row">
-                                        <div className="col-4 d-flex">
-                                            <Icon path={mdiTwitter} size={1} className="info-color"/>
-                                            <span className="social-text align-self-center ml-3">@nerolozguner</span>
-                                        </div>
-                                        <div className="col-2">
-                                            <Icon path={mdiPencil} size={1} className="grey-text"/>
-                                        </div>
-                                    </div>
+                                    <Icon path={mdiTwitter} size={1} className="info-color"/>
+                                    <span className="social-text align-self-center ml-3">@nerolozguner</span>
+                                    <Icon path={mdiPencil} size={1} className="grey-text"/>
                                 </div>
                             </div>
                         </div>

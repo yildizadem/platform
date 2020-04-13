@@ -3,7 +3,6 @@
     width: 78vw;
     height: 83vh;
     margin-top: 8vh;
-    margin-left: 15vw;
 }
 
 .header {
@@ -155,9 +154,14 @@
     margin-right: 6px;
 }
 
+.nav-tabs {
+    float: left;
+    width: 13vw;
+}
+
 .nav-panels {
     float: right;
-    width: 68vw;
+    width: 65vw;
     height: 60vh;
     border-radius: 2px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
@@ -237,8 +241,91 @@
     color: #33475c;
 }
 
+.tab-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 2.6px;
+    text-align: left;
+    color: #33475c;
+}
+
+.line {
+    width: 77px;
+    height: 0;
+    border: solid 1px #7c98b6;
+}
+
+.body {
+    width: 78vw;
+}
+
+.profile-banner {
+    padding-left: 1vw;
+}
+
+.profile-textbox {
+    margin-top: 1rem;
+}
 @media (max-width: 1280px) {
     .header{
-        margin-left: 6vw;
+        margin-left: 1vw;
+    }
+    .social-text {
+        min-width: 40%;
+    }
+    .profile-textbox {
+        margin-top: 1.5rem;
+    }
+    .profile-page {
+        margin-left: 14vw;
+    }
+    .nav-panels {
+        width: 63vw;
+    }
+}
+@media (min-width: 1280px) and (max-width: 1440px) {
+    .social-text {
+        min-width: 36%;
+    }
+    .profile-textbox {
+        margin-top: 1.5rem;
+    }
+    .profile-page {
+        margin-left: 14vw;
+    }
+    .nav-panels {
+        width: 63vw;
+    }
+}
+@media (min-width: 1440px) and (max-width: 1680px) {
+    .social-text {
+        min-width: 30%;
+    }
+    .profile-textbox {
+        margin-top: 3rem;
+    }
+    .profile-page {
+        margin-left: 17vw;
+    }
+    .nav-panels {
+         width: 63vw;
+     }
+}
+@media (min-width: 1920px) {
+    .social-text {
+        min-width: 30%;
+    }
+    .profile-textbox {
+        margin-top: 3rem;
+    }
+    .profile-page {
+        margin-left: 14vw;
+    }
+    .nav-panels {
+        width: 65vw;
     }
 }
