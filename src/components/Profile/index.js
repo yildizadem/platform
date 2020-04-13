@@ -6,7 +6,7 @@ import Icon from "@mdi/react";
 
 export default function() {
     return(
-        <div>
+        <div className="profile-page">
             <div className="header">
                 <div className="profile-banner">
                     <img src={profileImg} className="profile_img" alt="profile_img"/>
@@ -29,6 +29,14 @@ export default function() {
                         <div className="count">246.987.128</div>
                         <div className="rate">↓ 13.8%</div>
                     </div>
+                </div>
+            </div>
+            <div className="body">
+                <div className="nav-tabs">
+
+                </div>
+                <div className="nav-panels">
+
                 </div>
             </div>
         </div>

@@ -1,8 +1,13 @@
-.header {
+.profile-page{
     position: absolute;
-    margin-top: 13vh;
-    margin-left: 17vw;
-    width: 70vw;
+    width: 78vw;
+    height: 83vh;
+    margin-top: 8vh;
+    margin-left: 15vw;
+}
+
+.header {
+    margin-top: 3vh;
     display: flex;
 }
 
@@ -87,12 +92,14 @@
     height: 24px;
     float: right;
     object-fit: contain;
+    cursor: pointer;
 }
 
 .info-button {
     width: 16px;
     height: 16px;
     object-fit: contain;
+    cursor: pointer;
 }
 
 .card-body {
@@ -148,9 +155,17 @@
     margin-right: 6px;
 }
 
+.nav-panels {
+    float: right;
+    width: 1094px;
+    height: 650px;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
 @media (max-width: 1280px) {
     .header{
-        margin-top: 15vh;
-        margin-left: 22vw;
+        margin-left: 6vw;
     }
 }
