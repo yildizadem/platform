@@ -1,6 +1,7 @@
 import React from "react";
 import {mdiFullscreen, mdiInformation, mdiCamera} from "@mdi/js";
 import "./style.css"
+import "../../index.css"
 import profileImg from "./profil_img.png"
 import Icon from "@mdi/react";
 
@@ -36,7 +37,23 @@ export default function() {
 
                 </div>
                 <div className="nav-panels">
-
+                    <div className="pane-settings">
+                        <div className="row">
+                            <div className="col-12">
+                                <span className="nav-panels-header">İBB Veri Portalı kullanıcıları tarafından görünen bilgilerinizi aşağıdaki alandan düzenleyebilirsiniz.</span>
+                            </div>
+                        </div>
+                        <div className="row mt-4">
+                            <div className="col-3">
+                                <label className="cbs-label">Cep Telefonu</label>
+                                <input type="text" className="cbs-input mt-3" value="0212 449 45 20"/>
+                            </div>
+                            <div className="col-9">
+                                <label className="cbs-label">Adres</label>
+                                <input type="text" className="cbs-input mt-3" value="Hacıahmet Mh. Muhsin Yazıcıoğlu Cad. No:1 34440 Beyoğlu/İstanbul"/>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
