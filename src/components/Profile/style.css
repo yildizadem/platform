@@ -258,6 +258,7 @@
     letter-spacing: 2.6px;
     text-align: left;
     color: #33475c;
+    cursor: pointer;
 }
 
 .line {

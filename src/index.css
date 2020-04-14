@@ -143,3 +143,6 @@ body {
   -ms-flex-item-align: center !important;
   align-self: center !important;
 }
+.c_pointer {
+  cursor: pointer;
+}

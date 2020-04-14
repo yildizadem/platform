@@ -20,7 +20,7 @@ export default function() {
             <div className="header">
                 <div className="profile-banner">
                     <img src={profileImg} className="profile_img" alt="profile_img"/>
-                    <span className="edit-photo"><Icon path={mdiCamera} className="camera-icon" color="#7c98b6" /> Fotoğrafı Düzenle</span>
+                    <span className="edit-photo c_pointer"><Icon path={mdiCamera} className="camera-icon" color="#7c98b6" /> Fotoğrafı Düzenle</span>
                 </div>
 
                 <div className="user-info">
@@ -87,7 +87,7 @@ export default function() {
                                     <input type="text" className="cbs-input mt-3" defaultValue="0212 449 50 20"/>
                                 </div>
                                 <div className="col-12 profile-textbox">
-                                    <a className="change-password"><u>Şifre Değiştir</u></a>
+                                    <span className="change-password c_pointer"><u>Şifre Değiştir</u></span>
                                 </div>
                             </div>
                             <div className="col-9 mt-3">
@@ -98,17 +98,17 @@ export default function() {
                                 <div className="col-12 mt-3 d-flex">
                                     <Icon path={mdiLinkedin} size={1} className="blue-text"/>
                                     <span className="social-text align-self-center ml-3">linkedin.com/in/nerolozguner</span>
-                                    <Icon path={mdiPencil} size={1} className="grey-text"/>
+                                    <Icon path={mdiPencil} size={1} className="grey-text c_pointer"/>
                                 </div>
                                 <div className="col-12 mt-3 d-flex">
                                     <Icon path={mdiFacebook} size={1} className="primary-color-dark"/>
                                     <span className="social-text align-self-center ml-3">facebook.com/nerolozguner</span>
-                                    <Icon path={mdiPencil} size={1} className="grey-text"/>
+                                    <Icon path={mdiPencil} size={1} className="grey-text c_pointer"/>
                                 </div>
                                 <div className="col-12 mt-3 d-flex">
                                     <Icon path={mdiTwitter} size={1} className="info-color"/>
                                     <span className="social-text align-self-center ml-3">@nerolozguner</span>
-                                    <Icon path={mdiPencil} size={1} className="grey-text"/>
+                                    <Icon path={mdiPencil} size={1} className="grey-text c_pointer"/>
                                 </div>
                             </div>
                         </div>
