@@ -294,7 +294,7 @@
         width: 85vw;
     }
     .nav-panels {
-        width: 63vw;
+        width: 66vw;
     }
     .nav-tabs {
         width: 19vw;
@@ -303,7 +303,7 @@
         width: 85vw;
     }
 }
-@media (min-width: 1280px) and (max-width: 1440px) {
+@media (min-width: 1281px) and (max-width: 1440px) {
     .social-text {
         min-width: 36%;
     }
@@ -324,21 +324,25 @@
         width: 85vw;
     }
 }
-@media (min-width: 1440px) and (max-width: 1680px) {
+@media (min-width: 1441px) and (max-width: 1680px) {
     .social-text {
-        min-width: 30%;
+        min-width: 33%;
     }
     .profile-textbox {
         margin-top: 3rem;
     }
     .profile-page {
         margin-left: 17vw;
+        width: 79vw;
     }
     .nav-panels {
          width: 63vw;
      }
     .nav-tabs {
-        width: 15vw;
+        width: 16vw;
+    }
+    .body {
+        width: 79vw;
     }
 }
 @media (min-width: 1680px) {
