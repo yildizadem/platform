@@ -341,7 +341,7 @@
         width: 15vw;
     }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1680px) {
     .social-text {
         min-width: 30%;
     }
