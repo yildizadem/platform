@@ -169,8 +169,22 @@
 }
 
 .pane-settings {
+    display: none;
     padding-top: 4vh;
     padding-left: 3vw;
+}
+.pane-settings.active{
+    display: block;
+}
+
+.pane-notebook{
+    display: none;
+    padding-top: 4vh;
+    padding-left: 3vw;
+}
+
+.pane-notebook.active{
+    display: block;
 }
 
 .nav-panels-header {
@@ -261,12 +275,28 @@
     cursor: pointer;
 }
 
-.line {
+.line-profile {
+    display: none;
     width: 77px;
     float: right;
     margin-top: 10px;
     height: 0;
     border: solid 1px #7c98b6;
+}
+.line-profile.active {
+    display: block;
+}
+
+.line-address {
+    display: none;
+    width: 90px;
+    float: right;
+    margin-top: 10px;
+    height: 0;
+    border: solid 1px #7c98b6;
+}
+.line-address.active {
+    display: block;
 }
 
 .body {
@@ -280,6 +310,7 @@
 .profile-textbox {
     margin-top: 1rem;
 }
+
 @media (max-width: 1280px) {
     .header{
         margin-left: 1vw;

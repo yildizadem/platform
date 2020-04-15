@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {
     mdiFullscreen,
     mdiInformation,
@@ -15,6 +15,7 @@ import profileImg from "./profil_img.png"
 import Icon from "@mdi/react";
 
 export default function() {
+    const [activeTab, setActiveTab] = useState(1);
     return(
         <div className="profile-page">
             <div className="header">
@@ -43,19 +44,20 @@ export default function() {
             </div>
             <div className="body mt-1">
                 <div className="nav-tabs mt-5">
-                    <div className="tab">
+                    <div className="tab" onClick={() => setActiveTab(1)}>
                         <span className="tab-title">PROFİL BİLGİLERİ</span>
-                        <span className="line"></span>
+                        <span className={activeTab === 1 ? "line-profile active" : "line-profile"}/>
                     </div>
-                    <div className="tab mt-4">
+                    <div className="tab mt-4" onClick={() => setActiveTab(2)}>
                         <span className="tab-title">ADRES DEFTERİ</span>
+                        <span className={activeTab === 2 ? "line-address active" : "line-address"}/>
                     </div>
                     <div className="tab mt-4">
                         <span className="tab-title">PORTAL VERİ AYARLARI</span>
                     </div>
                 </div>
                 <div className="nav-panels">
-                    <div className="pane-settings">
+                    <div className={activeTab === 1 ? "pane-settings active" : "pane-settings"}>
                         <div className="row">
                             <div className="col-12">
                                 <span className="nav-panels-header">İBB Veri Portalı kullanıcıları tarafından görünen bilgilerinizi aşağıdaki alandan düzenleyebilirsiniz.</span>
@@ -112,6 +114,8 @@ export default function() {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div className={activeTab === 2 ? "pane-notebook active" : "pane-notebook"}>
                     </div>
                 </div>
             </div>
