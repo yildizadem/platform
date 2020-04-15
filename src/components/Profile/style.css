@@ -17,8 +17,8 @@
 }
 
 .user-info {
-    margin-left: 44px;
-    margin-top: 23px;
+    text-align: center;
+    margin-top: 43px;
 }
 
 .user-name {
@@ -35,7 +35,7 @@
 
 .user-unit {
     display: block;
-    margin-top: 14px;
+    margin-top: 16px;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: normal;
@@ -43,12 +43,13 @@
     font-style: normal;
     line-height: 1.39;
     letter-spacing: normal;
-    text-align: left;
+    text-align: center;
     color: #7c98b6;
 }
 
 .user-title {
     display: block;
+    margin-top: 6px;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: normal;
@@ -56,7 +57,7 @@
     font-style: normal;
     line-height: 1.39;
     letter-spacing: normal;
-    text-align: left;
+    text-align: center;
     color: #7c98b6;
 }
 
@@ -303,17 +304,23 @@
     width: 78vw;
 }
 
-.profile-banner {
-    padding-left: 1vw;
-}
-
 .profile-textbox {
     margin-top: 1rem;
+}
+.profile-banner {
+    width: 317px;
+    height: 462px;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
 }
 
 @media (max-width: 1280px) {
     .header{
         margin-left: 1vw;
+    }
+    .profile-banner {
+        padding-left: 1vw;
     }
     .social-text {
         min-width: 40%;
@@ -339,6 +346,9 @@
     .social-text {
         min-width: 36%;
     }
+    .profile-banner {
+        padding-left: 1vw;
+    }
     .profile-textbox {
         margin-top: 1.5rem;
     }
@@ -360,6 +370,9 @@
     .social-text {
         min-width: 33%;
     }
+    .profile-banner {
+        padding-left: 1vw;
+    }
     .profile-textbox {
         margin-top: 3rem;
     }
@@ -378,6 +391,9 @@
     }
 }
 @media (min-width: 1680px) {
+    .profile_img {
+        padding: 48px 83px 11px 84px;
+    }
     .social-text {
         min-width: 30%;
     }

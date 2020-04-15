@@ -18,17 +18,17 @@ export default function() {
     const [activeTab, setActiveTab] = useState(1);
     return(
         <div className="profile-page">
-            <div className="header">
                 <div className="profile-banner">
                     <img src={profileImg} className="profile_img" alt="profile_img"/>
                     <span className="edit-photo c_pointer"><Icon path={mdiCamera} className="camera-icon" color="#7c98b6" /> Fotoğrafı Düzenle</span>
+                    <div className="user-info">
+                        <span className="user-name">N. Erol Özgüner</span>
+                        <span className="user-unit">Bilgi İşlem Daire Başkanlığı</span>
+                        <span className="user-title">Daire Başkanı</span>
+                    </div>
                 </div>
 
-                <div className="user-info">
-                    <span className="user-name">N. Erol Özgüner</span>
-                    <span className="user-unit">Bilgi İşlem Daire Başkanlığı</span>
-                    <span className="user-title">Daire Başkanı</span>
-                </div>
+
                 <div className="card">
                     <div className="card-header">
                         <span>2020 Yılı Toplam Gelirler <Icon path={mdiInformation} className="info-button" color="#7c98b6" /></span>
@@ -41,7 +41,6 @@ export default function() {
                         <div className="rate">↓ 13.8%</div>
                     </div>
                 </div>
-            </div>
             <div className="body mt-1">
                 <div className="nav-tabs mt-5">
                     <div className="tab" onClick={() => setActiveTab(1)}>
