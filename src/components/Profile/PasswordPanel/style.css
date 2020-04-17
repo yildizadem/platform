@@ -1,0 +1,17 @@
+.password-button {
+    width: 206px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #33475c;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 2.6px;;
+}

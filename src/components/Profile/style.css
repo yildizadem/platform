@@ -50,6 +50,12 @@
 .pane-notebook.active{
     display: block;
 }
+.pane-password{
+    display: none;
+}
+.pane-password.active{
+    display: block;
+}
 .nav-panels-header {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
@@ -85,6 +91,30 @@
     margin-top: 7px;
 }
 .line-address.active {
+    display: block;
+}
+.line-password {
+    display: none;
+    width: 143px;
+    height: 4px;
+    background-color: #f5f8fa;
+    margin-left: 24px;
+    position: absolute;
+    margin-top: 7px;
+}
+.line-password.active {
+    display: block;
+}
+.line-settings {
+    display: none;
+    width: 205px;
+    height: 4px;
+    background-color: #f5f8fa;
+    margin-left: 27px;
+    position: absolute;
+    margin-top: 7px;
+}
+.line-settings.active {
     display: block;
 }
 .tabs {
