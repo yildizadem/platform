@@ -15,9 +15,9 @@ export default function() {
                 <span className="user-title">Daire Başkanı</span>
             </div>
             <div className="social-links">
-                <Icon path={mdiLinkedin} size={1} className="blue-text"/>
-                <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3"/>
-                <Icon path={mdiTwitter} size={1} className="info-color ml-3"/>
+                <Icon path={mdiLinkedin} size={1} className="blue-text c_pointer"/>
+                <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3 c_pointer"/>
+                <Icon path={mdiTwitter} size={1} className="info-color ml-3 c_pointer"/>
             </div>
         </div>
     )

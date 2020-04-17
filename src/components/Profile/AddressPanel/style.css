@@ -11,7 +11,6 @@
     display: block;
 }
 .address-nav-panel {
-    max-height: 540px;
     overflow-y: scroll;
 }
 .nav-tabs-notebook-item {
@@ -124,4 +123,9 @@
     position: absolute;
     right: 42px;
     margin-top: 58px;
+}
+@media (min-width: 1680px) {
+    .address-nav-panel {
+        max-height: 562px;
+    }
 }

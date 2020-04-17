@@ -29,7 +29,7 @@ export default function () {
                 <div className={activeTab === 1 ? "favourites-pane active" : "favourites-pane"}>
                     <div className="favourites-item">
                         <div className="address-profile-banner">
-                            <Icon path={mdiStar} size={1} className="favourite-icon"/>
+                            <Icon path={mdiStar} size={1} className="favourite-icon c_pointer"/>
                             <img src={YavuzErkut} className="profile-img-address" alt="Yavuz Erkut"/>
                         </div>
                         <div className="address-profile-info">
@@ -44,14 +44,14 @@ export default function () {
                             <span className="address-address">İstanbul Büyükşehir Belediye Başkanlığı Kemalpaşa Mah. 15 Temmuz Şehitleri Cad. No:5 34134 FATİH/İSTANBUL</span>
                         </div>
                         <div className="address-social-links">
-                            <Icon path={mdiLinkedin} size={1} className="blue-text"/>
-                            <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3"/>
-                            <Icon path={mdiTwitter} size={1} className="info-color ml-3"/>
+                            <Icon path={mdiLinkedin} size={1} className="blue-text c_pointer"/>
+                            <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3 c_pointer"/>
+                            <Icon path={mdiTwitter} size={1} className="info-color ml-3 c_pointer"/>
                         </div>
                     </div>
                     <div className="favourites-item">
                         <div className="address-profile-banner">
-                            <Icon path={mdiStar} size={1} className="favourite-icon"/>
+                            <Icon path={mdiStar} size={1} className="favourite-icon c_pointer"/>
                             <img src={KadriyeKasapoglu} className="profile-img-address" alt="Kadriye Kasapoğlu"/>
                         </div>
                         <div className="address-profile-info">
@@ -66,14 +66,14 @@ export default function () {
                             <span className="address-address">İstanbul Büyükşehir Belediye Başkanlığı Kemalpaşa Mah. 15 Temmuz Şehitleri Cad. No:5 34134 FATİH/İSTANBUL</span>
                         </div>
                         <div className="address-social-links">
-                            <Icon path={mdiLinkedin} size={1} className="blue-text"/>
-                            <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3"/>
-                            <Icon path={mdiTwitter} size={1} className="info-color ml-3"/>
+                            <Icon path={mdiLinkedin} size={1} className="blue-text c_pointer"/>
+                            <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3 c_pointer"/>
+                            <Icon path={mdiTwitter} size={1} className="info-color ml-3 c_pointer"/>
                         </div>
                     </div>
                     <div className="favourites-item">
                         <div className="address-profile-banner">
-                            <Icon path={mdiStar} size={1} className="favourite-icon"/>
+                            <Icon path={mdiStar} size={1} className="favourite-icon c_pointer"/>
                             <img src={MeltemSisli} className="profile-img-address" alt="Yeşim Meltem Şişli"/>
                         </div>
                         <div className="address-profile-info">
@@ -88,14 +88,14 @@ export default function () {
                             <span className="address-address">Hacııahmet Mah. Muhsin Yazıcıoğlu Cad. No:1 34440 Beyoğlu / İSTANBUL</span>
                         </div>
                         <div className="address-social-links">
-                            <Icon path={mdiLinkedin} size={1} className="blue-text"/>
-                            <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3"/>
-                            <Icon path={mdiTwitter} size={1} className="info-color ml-3"/>
+                            <Icon path={mdiLinkedin} size={1} className="blue-text c_pointer"/>
+                            <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3 c_pointer"/>
+                            <Icon path={mdiTwitter} size={1} className="info-color ml-3 c_pointer"/>
                         </div>
                     </div>
                     <div className="favourites-item">
                         <div className="address-profile-banner">
-                            <Icon path={mdiStar} size={1} className="favourite-icon"/>
+                            <Icon path={mdiStar} size={1} className="favourite-icon c_pointer"/>
                             <img src={GurkanAlpay} className="profile-img-address" alt="Arif Gürkan Alpy"/>
                         </div>
                         <div className="address-profile-info">
@@ -110,9 +110,9 @@ export default function () {
                             <span className="address-address">Hacııahmet Mah. Muhsin Yazıcıoğlu Cad. No:1 34440 Beyoğlu / İSTANBUL</span>
                         </div>
                         <div className="address-social-links">
-                            <Icon path={mdiLinkedin} size={1} className="blue-text"/>
-                            <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3"/>
-                            <Icon path={mdiTwitter} size={1} className="info-color ml-3"/>
+                            <Icon path={mdiLinkedin} size={1} className="blue-text c_pointer"/>
+                            <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3 c_pointer"/>
+                            <Icon path={mdiTwitter} size={1} className="info-color ml-3 c_pointer"/>
                         </div>
                     </div>
                     <div className="favourites-item">
@@ -141,7 +141,7 @@ export default function () {
                 <div className={activeTab === 2 ? "all-pane active" : "all-pane"}>
                     <div className="favourites-item">
                         <div className="address-profile-banner">
-                            <Icon path={mdiStarOutline} size={1} className="favourite-icon"/>
+                            <Icon path={mdiStarOutline} size={1} className="favourite-icon c_pointer"/>
                             <img src={MeltemSisli} className="profile-img-address" alt="Yeşim Meltem Şişli"/>
                         </div>
                         <div className="address-profile-info">
@@ -156,14 +156,14 @@ export default function () {
                             <span className="address-address">Hacııahmet Mah. Muhsin Yazıcıoğlu Cad. No:1 34440 Beyoğlu / İSTANBUL</span>
                         </div>
                         <div className="address-social-links">
-                            <Icon path={mdiLinkedin} size={1} className="blue-text"/>
-                            <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3"/>
-                            <Icon path={mdiTwitter} size={1} className="info-color ml-3"/>
+                            <Icon path={mdiLinkedin} size={1} className="blue-text c_pointer"/>
+                            <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3 c_pointer"/>
+                            <Icon path={mdiTwitter} size={1} className="info-color ml-3 c_pointer"/>
                         </div>
                     </div>
                     <div className="favourites-item">
                         <div className="address-profile-banner">
-                            <Icon path={mdiStarOutline} size={1} className="favourite-icon"/>
+                            <Icon path={mdiStarOutline} size={1} className="favourite-icon c_pointer"/>
                             <img src={GurkanAlpay} className="profile-img-address" alt="Arif Gürkan Alpy"/>
                         </div>
                         <div className="address-profile-info">
@@ -178,14 +178,14 @@ export default function () {
                             <span className="address-address">Hacııahmet Mah. Muhsin Yazıcıoğlu Cad. No:1 34440 Beyoğlu / İSTANBUL</span>
                         </div>
                         <div className="address-social-links">
-                            <Icon path={mdiLinkedin} size={1} className="blue-text"/>
-                            <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3"/>
-                            <Icon path={mdiTwitter} size={1} className="info-color ml-3"/>
+                            <Icon path={mdiLinkedin} size={1} className="blue-text c_pointer"/>
+                            <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3 c_pointer"/>
+                            <Icon path={mdiTwitter} size={1} className="info-color ml-3 c_pointer"/>
                         </div>
                     </div>
                     <div className="favourites-item">
                         <div className="address-profile-banner">
-                            <Icon path={mdiStarOutline} size={1} className="favourite-icon"/>
+                            <Icon path={mdiStarOutline} size={1} className="favourite-icon c_pointer"/>
                             <img src={YavuzErkut} className="profile-img-address" alt="Yavuz Erkut"/>
                         </div>
                         <div className="address-profile-info">
@@ -200,14 +200,14 @@ export default function () {
                             <span className="address-address">İstanbul Büyükşehir Belediye Başkanlığı Kemalpaşa Mah. 15 Temmuz Şehitleri Cad. No:5 34134 FATİH/İSTANBUL</span>
                         </div>
                         <div className="address-social-links">
-                            <Icon path={mdiLinkedin} size={1} className="blue-text"/>
-                            <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3"/>
-                            <Icon path={mdiTwitter} size={1} className="info-color ml-3"/>
+                            <Icon path={mdiLinkedin} size={1} className="blue-text c_pointer"/>
+                            <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3 c_pointer"/>
+                            <Icon path={mdiTwitter} size={1} className="info-color ml-3 c_pointer"/>
                         </div>
                     </div>
                     <div className="favourites-item">
                         <div className="address-profile-banner">
-                            <Icon path={mdiStarOutline} size={1} className="favourite-icon"/>
+                            <Icon path={mdiStarOutline} size={1} className="favourite-icon c_pointer"/>
                             <img src={KadriyeKasapoglu} className="profile-img-address" alt="Kadriye Kasapoğlu"/>
                         </div>
                         <div className="address-profile-info">
@@ -222,14 +222,14 @@ export default function () {
                             <span className="address-address">İstanbul Büyükşehir Belediye Başkanlığı Kemalpaşa Mah. 15 Temmuz Şehitleri Cad. No:5 34134 FATİH/İSTANBUL</span>
                         </div>
                         <div className="address-social-links">
-                            <Icon path={mdiLinkedin} size={1} className="blue-text"/>
-                            <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3"/>
-                            <Icon path={mdiTwitter} size={1} className="info-color ml-3"/>
+                            <Icon path={mdiLinkedin} size={1} className="blue-text c_pointer"/>
+                            <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3 c_pointer"/>
+                            <Icon path={mdiTwitter} size={1} className="info-color ml-3 c_pointer"/>
                         </div>
                     </div>
                     <div className="favourites-item">
                         <div className="address-profile-banner">
-                            <Icon path={mdiStarOutline} size={1} className="favourite-icon"/>
+                            <Icon path={mdiStarOutline} size={1} className="favourite-icon c_pointer"/>
                             <img src={GurkanAlpay} className="profile-img-address" alt="Arif Gürkan Alpy"/>
                         </div>
                         <div className="address-profile-info">
@@ -244,9 +244,9 @@ export default function () {
                             <span className="address-address">Hacııahmet Mah. Muhsin Yazıcıoğlu Cad. No:1 34440 Beyoğlu / İSTANBUL</span>
                         </div>
                         <div className="address-social-links">
-                            <Icon path={mdiLinkedin} size={1} className="blue-text"/>
-                            <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3"/>
-                            <Icon path={mdiTwitter} size={1} className="info-color ml-3"/>
+                            <Icon path={mdiLinkedin} size={1} className="blue-text c_pointer"/>
+                            <Icon path={mdiFacebook} size={1} className="primary-color-dark ml-3 c_pointer"/>
+                            <Icon path={mdiTwitter} size={1} className="info-color ml-3 c_pointer"/>
                         </div>
                     </div>
                 </div>
