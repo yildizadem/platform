@@ -1,0 +1,99 @@
+.cbs-input {
+    display: block;
+    width: 80%;
+    border-bottom: 2px solid #cbd7e2;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.81;
+    letter-spacing: normal;
+    text-align: left;
+    padding-bottom: 5px;
+    color: #33475c;
+    font-size: 16px;
+    outline: none;
+}
+.cbs-input:focus {
+    border-bottom: 2px solid #4285f4;
+    -webkit-box-shadow: 0 1px 0 0 #4285f4;
+    box-shadow: 0 1px 0 0 #4285f4;
+}
+.cbs-label {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.08;
+    letter-spacing: normal;
+    text-align: left;
+    color: #808495;
+}
+.social-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.81;
+    letter-spacing: normal;
+    text-align: left;
+    color: #33475c;
+}
+.save-button {
+    width: 206px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #33475c;
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 2.6px;
+}
+@media (max-width: 1280px) {
+    .profile-textbox {
+        margin-top: 1.5rem;
+    }
+    .social-text {
+        min-width: 40%;
+    }
+}
+@media (min-width: 1281px) and (max-width: 1440px) {
+    .profile-textbox {
+        margin-top: 1.5rem;
+    }
+    .social-text {
+        min-width: 36%;
+    }
+}
+@media (min-width: 1441px) and (max-width: 1680px) {
+    .profile-textbox {
+        margin-top: 3rem;
+    }
+    .social-text {
+        min-width: 33%;
+    }
+}
+@media (min-width: 1680px) {
+    .profile-textbox {
+        margin-top: 3rem;
+    }
+    .social-text {
+        min-width: 40%;
+    }
+}

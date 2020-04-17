@@ -1,0 +1,87 @@
+.profile-banner {
+    width: 317px;
+    height: 462px;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+.profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.edit-photo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #7c98b6;
+}
+.user-info {
+    text-align: center;
+    margin-top: 43px;
+}
+.user-name {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.04;
+    letter-spacing: normal;
+    text-align: left;
+    color: #33475c;
+}
+.user-unit {
+    display: block;
+    margin-top: 16px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: center;
+    color: #7c98b6;
+}
+.user-title {
+    display: block;
+    margin-top: 6px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.39;
+    letter-spacing: normal;
+    text-align: center;
+    color: #7c98b6;
+}
+.social-links {
+    margin-top: 30px;
+    text-align: center;
+}
+.camera-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin-right: 6px;
+}
+@media (min-width: 1680px) {
+    .profile_img {
+        padding: 48px 83px 11px 84px;
+    }
+    .profile-banner {
+        margin-top: 3vh;
+        margin-left: 3vw;
+    }
+}
